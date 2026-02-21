@@ -1,0 +1,12 @@
+Source: ros-jazzy-crx-kinematics-py
+Section: misc
+Priority: optional
+Maintainer: Daniel Cranston <cranston.daniel@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-geometry-msgs, ros-jazzy-std-msgs, ros-jazzy-ros-workspace, python3-all, python3-setuptools, dh-python
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-crx-kinematics-py
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, python3-matplotlib, python3-numpy, python3-scipy, python3-transforms3d, ros-jazzy-cv-bridge, ros-jazzy-geometry-msgs, ros-jazzy-std-msgs, ros-jazzy-tf-transformations, ros-jazzy-ros-workspace
+Description: Python implementation of FK/IK for Fanuc CRX series cobots
