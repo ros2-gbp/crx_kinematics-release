@@ -1,0 +1,12 @@
+Source: ros-rolling-crx-kinematics
+Section: misc
+Priority: optional
+Maintainer: Daniel Cranston <cranston.daniel@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libeigen3-dev, ros-rolling-ament-cmake-gtest <!nocheck>, ros-rolling-ament-cmake-ros, ros-rolling-moveit-core, ros-rolling-pluginlib, ros-rolling-tf2-eigen, ros-rolling-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-rolling-crx-kinematics
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libeigen3-dev, ros-rolling-moveit-core, ros-rolling-pluginlib, ros-rolling-tf2-eigen, ros-rolling-ros-workspace
+Description: C++ implementation of FK/IK for Fanuc CRX series cobots
